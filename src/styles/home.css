@@ -1,0 +1,53 @@
+.hero_section{
+    background: url('../assets/hero/hero-1.jpg') no-repeat center center;
+    position: relative;
+    background-attachment:fixed;
+    background-size: cover;
+    padding-top: 170px;
+    padding-bottom:200px;
+}
+.hero_section .price_badge{
+    background: url('../assets/hero/price-badge-yellow.png') no-repeat center center;
+    position: absolute;
+    top: -20px;
+    right: 8px;
+    width: 180px;
+    height: 170px;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero_section .bade_content .h4_xs{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.hero_section .bade_content .h4_cost{
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.hero_section .hero_heading h1{
+   font-family: var(--lilita-font);
+   font-size: 7rem;
+   line-height: 1;
+   letter-spacing:3px;
+}
+.hero_section .hero_heading h3{
+    font-family: var(--lilita-font);
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing:3px;
+ }
+ @media (max-width:767px) {
+    .hero_section .hero_heading h1{
+        font-family: var(--lilita-font);
+        font-size: 5rem;
+        line-height: 1;
+        letter-spacing:3px;
+     }
+     
+ }

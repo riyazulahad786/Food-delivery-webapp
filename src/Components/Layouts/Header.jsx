@@ -1,4 +1,4 @@
-// import React from 'react'
+import {useState} from 'react'
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -6,9 +6,17 @@ import { Link } from "react-router-dom";
 import logo from '../../assets/logo/logo.png'
 import '../../styles/header.css'
 function Header() {
+    const [nav, setNav] = useState(false);
+
+    const scrollNavbar = ()=> {
+        const scrollValue = document?.documentElement?.scrollTop;
+        scrollValue > 100 ? setNav(true) : setNav(false);
+    }
+
+    window.addEventListener('scroll',scrollNavbar)
   return (
     <header>
-      <Navbar expand="lg" className="">
+      <Navbar expand="lg" className={`${nav === true ?  "sticky" :" "}`}>
         <Container>
           <Navbar.Brand href="#home">
             <Link className="logo">
