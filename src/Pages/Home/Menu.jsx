@@ -12,6 +12,24 @@ import Image8 from '../../assets/menu/burger-18.jpg';
 import Cards from '../../Components/Cards';
 function Menu() {
 
+const renderingRateIcons= (rating)=> {
+  const stars = []
+  for(let i=0;i<5;i++){
+    if(rating>0.5){
+      stars.push(<i key={i} className='p-1 bi bi-star-fill'></i>);
+      rating--;
+    }else if(rating>0 && rating<1){
+      stars.push(<i key={"half"} className='p-1 bi bi-star-half'></i>);
+      rating--;
+
+    }else{
+      stars.push(<i key={`empty ${i}`} className='p-1 bi bi-star'></i>);
+
+    }
+   
+  }
+  return stars;
+}
     const mockData = [
         {
           id: "0001",
@@ -95,11 +113,11 @@ function Menu() {
                     title={items.title}
                     paragraph={items.paragraph}
                     price={items.price}
-                    // renderingRateIcons={renderingRateIcons}
+                    renderingRateIcons={renderingRateIcons}
                 />
              ))}
           </Row>
-          <Row>
+          <Row className=''>
               <Col lg={5} sm={6}>
                   <div className='advertise_left advertise_left_img'>
                     <h4>GET YOUR FREE</h4>
@@ -107,7 +125,7 @@ function Menu() {
                     <button className='btn explore_now'>Learn More</button>
                   </div>
               </Col>
-              <Col lg={7} sm={7}>
+              <Col lg={7} sm={6} className=''>
                   <div className='advertise_right advertise_right_img'>
                     <h4>GET YOUR FREE</h4>
                     <h5>CHESSE</h5>
