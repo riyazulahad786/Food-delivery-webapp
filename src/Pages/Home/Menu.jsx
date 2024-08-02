@@ -101,14 +101,14 @@ function Menu() {
           </Row>
           <Row>
               <Col lg={5} sm={6}>
-                  <div>
+                  <div className='advertise_left advertise_left_img'>
                     <h4>GET YOUR FREE</h4>
                     <h5>CHESSE</h5>
                     <button className='btn explore_now'>Learn More</button>
                   </div>
               </Col>
-              <Col lg={5} sm={7}>
-                  <div>
+              <Col lg={7} sm={7}>
+                  <div className='advertise_right advertise_right_img'>
                     <h4>GET YOUR FREE</h4>
                     <h5>CHESSE</h5>
                     <button className='btn explore_now'>Learn More</button>
