@@ -51,3 +51,44 @@
      }
      
  }
+ /* about section */
+ .about_section{
+    background: url('../assets/about/about-1.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 80px !important;
+    padding-bottom: 300px !important;
+    width: 100%;
+   
+    
+ }
+ .about_section h2{
+    font-size: 3rem;
+ }
+ .about_section p{
+    font-size: 1.3rem;
+    color: var(--gray);
+    padding: 20px 30px;
+ }
+ .about_wrapper{
+    background-color: var(--yellow);
+    padding-top: 70px;
+    padding-bottom: 30px;
+ }
+ .about_box .about_icon img{
+    max-width: 25%;
+ }
+ .about_box h4{
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.5008;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+ @media (max-width:992px) {
+    .about_section h2{
+       font-size: 1.9rem;
+    }
+    .about_section p{
+        padding: 20px 0px;
+    }
+ }
