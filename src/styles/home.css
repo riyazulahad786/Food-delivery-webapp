@@ -92,3 +92,19 @@
         padding: 20px 0px;
     }
  }
+ .menu_section{
+   padding-top: 100px;
+   padding-bottom: 200px;
+ }
+ .menu_section .card_img{
+   transition: all 500ms ease-in-out;
+ }
+ .menu_section h2{
+   color: var(--light-red);
+   font-family: var(--oswald-font);
+   font-size: 3rem;
+   font-weight: 800;
+ }
+ .menu_section .para{
+   color: var(--gray);
+ }

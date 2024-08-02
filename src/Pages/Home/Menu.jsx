@@ -78,16 +78,16 @@ function Menu() {
           price: 89.12,
         },]
   return (
-    <div className="menu_section">
+    <div className="menu_section ">
        <Container>
           <Row>
-             <Col lg={{span:8,offset:2}}>
+             <Col lg={{span:8,offset:2}} className='text-center'>
                 <h2>OUR CRAZZY BURGERS ARE HERE !</h2>
-                <p> Aliquam a augue suscipit, luctus neque purus ipsum and neque
+                <p className='para'> Aliquam a augue suscipit, luctus neque purus ipsum and neque
                 dolor primis libero tempus, blandit varius</p>
              </Col>
           </Row>
-          <Row>
+          <Row className=''>
              {mockData.map((items,i)=>(
                 <Cards key={i} 
                     image={items.image}
@@ -98,6 +98,22 @@ function Menu() {
                     // renderingRateIcons={renderingRateIcons}
                 />
              ))}
+          </Row>
+          <Row>
+              <Col lg={5} sm={6}>
+                  <div>
+                    <h4>GET YOUR FREE</h4>
+                    <h5>CHESSE</h5>
+                    <button className='btn explore_now'>Learn More</button>
+                  </div>
+              </Col>
+              <Col lg={5} sm={7}>
+                  <div>
+                    <h4>GET YOUR FREE</h4>
+                    <h5>CHESSE</h5>
+                    <button className='btn explore_now'>Learn More</button>
+                  </div>
+              </Col>
           </Row>
        </Container>
     </div>

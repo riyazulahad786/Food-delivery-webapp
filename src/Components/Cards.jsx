@@ -4,8 +4,7 @@ import { Col, Card, Button } from "react-bootstrap";
 
 function Cards({ image, rating, title, price, paragraph }) {
   return (
-    <div>
-      <Col sm={6} lg={4} xl={3}>
+      <Col sm={6} lg={4} xl={3} className="py-2">
         <Card className="overflow-hidden">
           <div className="overflow-hidden">
             <Card.Img variant="top" src={image} />
@@ -27,7 +26,7 @@ function Cards({ image, rating, title, price, paragraph }) {
           </Card.Body>
         </Card>
       </Col>
-    </div>
+  
   );
 }
 
