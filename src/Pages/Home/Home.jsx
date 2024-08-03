@@ -6,6 +6,7 @@ import Hero from "./Hero"
 import Menu from "./Menu"
 import Promotion from "./Promotion"
 import Resturent from "./Resturent"
+import View from './View'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
             <Menu/>
             <Promotion/>
             <Resturent/>
+            <View/>
         </div>
     </Layout>
   )

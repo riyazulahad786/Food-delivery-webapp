@@ -246,3 +246,18 @@
   width: 180px;
   height: auto;
  }
+ .blog_section{
+  padding: 80px 0 40px;
+  background: url('../assets/blog/reviews.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+ }
+ .blog_img img{
+  border-radius: 100px;
+  width: 200px;
+ }
+ .blog_section .item_rating i {
+  color: var(--yellow);
+  margin: 7px 7px;
+ }
