@@ -300,13 +300,19 @@
   font-size: 2rem;
   font-family: var(--oswald-font);
  }
-.copy_right .right li{
-    font-family: var(--lilita-font);
+.copy_right .right li .link{
+    font-family: var(--lilita-font) !important;
     font-size: 1rem;
-    color: var(--brown);
+    color: var(--brown) !important;
+    font-weight: 800 !important;
 }
-.right{
-  gap: 12px;
+
+.footer_section .copy_right ul li:after{
+  content:"|";
+  padding: 18px;
+}
+.footer_section .copy_right ul li:last-child:after{
+   display: none;
 }
 @media (max-width:767px) {
   .right{

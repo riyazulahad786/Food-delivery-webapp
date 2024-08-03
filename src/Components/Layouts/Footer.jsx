@@ -64,16 +64,16 @@ function Footer() {
                <div>
                   <ul className="list-unstyled d-flex justify-content-center right">
                     <li>
-                      <Link>© 2023 <span>CODE4EDUCATION</span>. All Rights Reserved</Link>
+                      <Link className="link">© 2023 <span>CODE4EDUCATION</span>. All Rights Reserved</Link>
                     </li>
                     <li>
-                      <Link>About Us</Link>
+                      <Link className="link">About Us</Link>
                     </li>
                     <li>
-                      <Link>Terms Of Use</Link>
+                      <Link className="link">Terms Of Use</Link>
                     </li>
                     <li>
-                      <Link>Privacy Policy</Link>
+                      <Link className="link">Privacy Policy</Link>
                     </li>
                   </ul>
                </div>
