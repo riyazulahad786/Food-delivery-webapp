@@ -95,7 +95,7 @@
  }
  .menu_section{
    padding-top: 100px;
-   padding-bottom: 200px;
+   /* padding-bottom: 100px; */
  }
  .menu_section .card_img{
    transition: all 500ms ease-in-out;
