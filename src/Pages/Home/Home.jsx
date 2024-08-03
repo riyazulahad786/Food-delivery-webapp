@@ -5,6 +5,7 @@ import About from "./About"
 import Hero from "./Hero"
 import Menu from "./Menu"
 import Promotion from "./Promotion"
+import Resturent from "./Resturent"
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
             <About/>
             <Menu/>
             <Promotion/>
+            <Resturent/>
         </div>
     </Layout>
   )
