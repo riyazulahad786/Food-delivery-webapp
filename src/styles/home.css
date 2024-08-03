@@ -261,3 +261,55 @@
   color: var(--yellow);
   margin: 7px 7px;
  }
+ .contact_section{
+  padding: 80px 0 40px;
+  background: url('../assets/footer/banner-1.jpg') no-repeat center center;
+  background-size: cover;
+ }
+ .contact_section h2{
+  font-size: 3rem;
+  color: var(--bg-coffee);
+  font-family: var(--oswald-font);
+  font-weight: 700;
+  line-height: 1;
+ }
+ .contact_section h4{
+  font-size: 2rem;
+  color: var(--bg-coffee);
+  font-family: var(--lilita-font);
+  font-weight: 900;
+  line-height: 1;
+ }
+ .footer_section{
+  padding: 60px 0 10px;
+ }
+ .footer_section .social_link{
+    font-size: 2rem;
+ }
+ .footer_section h5{
+  font-family: var(--oswald-font);
+  color: var(--brown);
+  font-weight: 700;
+ }
+ .footer_section p{
+  font-size: 1rem;
+  margin-bottom: 3px;
+ }
+ .footer_section .calling li{
+  color: var(--yellow);
+  font-size: 2rem;
+  font-family: var(--oswald-font);
+ }
+.copy_right .right li{
+    font-family: var(--lilita-font);
+    font-size: 1rem;
+    color: var(--brown);
+}
+.right{
+  gap: 12px;
+}
+@media (max-width:767px) {
+  .right{
+    flex-direction: column;
+  }
+}

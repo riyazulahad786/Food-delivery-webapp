@@ -2,6 +2,7 @@
 
 import Layout from "../../Components/Layouts/Layout"
 import About from "./About"
+import Contact from "./Contact"
 import Hero from "./Hero"
 import Menu from "./Menu"
 import Promotion from "./Promotion"
@@ -18,6 +19,7 @@ function Home() {
             <Promotion/>
             <Resturent/>
             <View/>
+            <Contact/>
         </div>
     </Layout>
   )
